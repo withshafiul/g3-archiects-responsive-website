@@ -9,7 +9,7 @@
   font-weight: 400 ;
   font-style: normal;
 }
-/* navbar section */
+/* navbar section start here*/
 .navbar{
   border: 2px solid tomato;
   display: flex;
@@ -40,4 +40,56 @@
 /* header section background color  */
 .header-background-color{
   background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* banner head section start herer */
+.banner-head{
+  border: 2px solid tomato;
+  max-width: 1440px;
+ 
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+
+}
+.banner-head h1{
+  border: 2px solid teal;
+  width: 877px;
+  /* height: 155px; */
+  font-weight: 400px;
+  font-size: 4rem;
+  margin: 0 auto;
+   margin-top: 6.4rem;
+}
+.banner-head p{
+  border: 2px solid skyblue;
+  width: 877px;
+  font-weight:400px ;
+  font-size: 1rem ;
+  color:rgb(66, 66, 66);
+   margin: 0 auto;
+    margin-top: 1.10rem;
+
+}
+.banner-head button{
+  width: 180px;
+  font-weight:400px ;
+  font-size: 1.25rem;
+  color: rgb(255, 255, 255);
+  background-color:rgb(255, 144, 14) ;
+  margin-top: 2rem;
+  padding: 21px 25px;
+  border-radius: 0.5rem;
+  border: none;
+}
+.banner-head button:hover{
+  background-color: rgb(212, 24, 24);
+}
+/* bannder img section start here */
+.banner-img{
+  border: 3px solid tan;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+   margin-top: 3rem;
 }
