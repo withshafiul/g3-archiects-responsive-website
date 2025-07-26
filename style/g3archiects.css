@@ -9,4 +9,35 @@
   font-weight: 400 ;
   font-style: normal;
 }
-
+/* navbar section */
+.navbar{
+  border: 2px solid tomato;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  align-items: center;
+}
+.navbar h3{
+  font-weight: 400px;
+  font-size: 45px;
+  color: rgb(19, 19, 19);
+}
+.navbar ul{
+  display: flex;
+}
+.navbar li{
+  list-style: none;
+  margin-left: 3rem;
+  font-weight:400px;
+  font-size: 1.25rem;
+ 
+}
+.navbar a{
+  text-decoration: none;
+   color:rgb(66, 66, 66);
+}
+/* header section background color  */
+.header-background-color{
+  background-color: rgba(255, 144, 14, 0.1);
+}
