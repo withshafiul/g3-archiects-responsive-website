@@ -422,17 +422,31 @@ span{
 
 /* footer section start here */
 .footer-section{
-  border: 2px solid tan;
-  max-width: 1440px;
+  /* border: 2px solid tan; */
+  width: 1440px;
   margin: 0 auto;
   margin-top: 170px;
 }
 .footer-section p{
-   border: 2px solid rgb(172, 34, 64);
-    width: 620px;
+   /* border: 2px solid rgb(172, 34, 64); */
+  width: 1440px;
   font-weight:400px ;
   font-size:20px;
   color:rgb(66, 66, 66);
-  margin-left: 420px;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
 
+}
+@media screen and (max-width:576px) {
+  .footer-section p{
+    width:400px ;
+    
+  }
+  /* .footer-section {
+    width:00px ;
+    
+  } */
+
+  
 }
