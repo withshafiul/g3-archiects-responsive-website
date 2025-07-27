@@ -353,14 +353,14 @@ span{
   .icon-container{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    width: ;
+   
   }
   
 }
 
 /* esponser header section start here  */
 .esponser-header{
-  border: 3px solid tan;
+  /* border: 3px solid tan; */
   width: 542px;
   margin: 0 auto;
   margin-top: 180px;
@@ -369,7 +369,7 @@ span{
 
 }
 .esponser-header h5{
-   border: 3px solid tan;
+   /* border: 3px solid tan; */
   max-width: 543px;
   font-weight: 400px;
   font-size: 45px;
@@ -382,6 +382,22 @@ span{
   font-size:1rem;
   color:rgb(114, 114, 114);
   margin-top: 24px;
+}
+/* responsive layout icon section*/
+@media screen and (max-width:576px) {
+  .esponser-header{
+    width: 300px;
+
+  }
+  .esponser-header h5{
+    width: 300px;
+
+  }
+.esponser-header p{
+  width: 300px;
+
+}
+  
 }
 /* esponser logo section start here */
 .esponser-logo{
