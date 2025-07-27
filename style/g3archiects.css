@@ -266,14 +266,14 @@ span{
 }
 /* Some-Facts-title here */
 .Some-Facts-title{
-  border: 3px solid tan;
+  /* border: 3px solid tan; */
   max-width: 1440px;
   margin: 0 auto;
   margin-top: 130px;
  
 }
 .Some-Facts-title h4{
-  border: 3px solid tan;
+  /* border: 3px solid tan; */
   width: 260px;
   font-weight: 400px;
   font-size: 42px;
@@ -282,7 +282,7 @@ span{
   
 }
 .Some-Facts-title h5{
-  border: 3px solid tan;
+  /* border: 3px solid tan; */
   width: 542px;
   font-weight: 400px;
   font-size: 16px;
@@ -307,7 +307,7 @@ span{
 /* icon section start here  */
 
 .icon-container{
-  border: 5px solid rgb(31, 33, 172);
+  /* border: 5px solid rgb(31, 33, 172); */
   width: 1440px;
   margin: 0 auto;
    /* margin-left: 124px; */
@@ -346,6 +346,15 @@ span{
   color:rgb(114, 114, 114);
   text-align: center;
   margin-top: 10px;
+  
+}
+/* responsive layout icon section*/
+@media screen and (max-width:576px) {
+  .icon-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: ;
+  }
   
 }
 
