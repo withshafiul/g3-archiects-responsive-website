@@ -11,7 +11,7 @@
 }
 /* navbar section start here*/
 .navbar{
-  border: 2px solid tomato;
+  /* border: 2px solid tomato; */
   display: flex;
   justify-content: space-between;
   max-width: 1440px;
@@ -37,6 +37,7 @@
   text-decoration: none;
    color:rgb(66, 66, 66);
 }
+ 
 /* header section background color  */
 .header-background-color{
   background-color: rgba(255, 144, 14, 0.1);
@@ -44,7 +45,7 @@
 
 /* banner head section start herer */
 .banner-head{
-  border: 2px solid tomato;
+  /* border: 2px solid tomato; */
   max-width: 1440px;
  
   align-items: center;
@@ -53,25 +54,25 @@
 
 }
 .banner-head h1{
-  border: 2px solid teal;
+  /* border: 2px solid teal; */
   width: 877px;
   /* height: 155px; */
   font-weight: 400px;
-  font-size: 4rem;
+  font-size: 64px;
   margin: 0 auto;
    margin-top: 6.4rem;
 }
 .banner-head p{
-  border: 2px solid skyblue;
+  /* border: 2px solid skyblue; */
   width: 877px;
   font-weight:400px ;
   font-size: 1rem ;
-  color:rgb(66, 66, 66);
+  color:rgb(114, 114, 114);
    margin: 0 auto;
     margin-top: 1.10rem;
 
 }
-.banner-head button{
+.btn-primary{
   width: 180px;
   font-weight:400px ;
   font-size: 1.25rem;
@@ -79,17 +80,280 @@
   background-color:rgb(255, 144, 14) ;
   margin-top: 2rem;
   padding: 21px 25px;
-  border-radius: 0.5rem;
+  border-radius:8px;
   border: none;
 }
-.banner-head button:hover{
+.btn-primary:hover{
   background-color: rgb(212, 24, 24);
 }
 /* bannder img section start here */
 .banner-img{
-  border: 3px solid tan;
+  /* border: 3px solid tan; */
   max-width: 1440px;
-  width: 100%;
   margin: 0 auto;
    margin-top: 3rem;
+}
+.img-responsive{
+  width: 100%;
+}
+/* responsive layout  navbar and banner section*/
+ @media screen and (max-width:576px) {
+  .navbar, .navbar ul, .banner-head{
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-head h1,.banner-head p{
+    width:400px ;
+  }
+  
+ }
+
+/* team work sectin start here */
+.main-bg-color{
+  background-color:whitesmoke;
+}
+
+.div-container{
+  border: 2px solid tomato;
+  max-width: 1440px;
+  display: flex;
+ margin: 0 auto;
+ gap: 73px;
+
+ /* margin-top: 6.7rem; */
+
+}
+.div-left{
+  border: 2px solid slateblue ;
+  width: 708px  ;
+  height:  708px  ;
+  margin-top: 5.7rem;
+  
+ 
+}
+.div-left img{
+  border: 2px solid slateblue ;
+  width: 340px;
+  /* width: 100%; */
+  /* height: 340px; */
+  /* gap: 40px; */
+
+  border-radius: 5px;
+}
+.div-right{
+  border: 2px solid slateblue ;
+  width: 537px;
+  margin-top: 287px;
+  /* gap: 80px; */
+}
+.div-right h3{
+  width: 468px;
+  font-weight: 400px;
+  font-size: 3rem;
+
+}
+span{
+  color:rgb(255, 144, 14) ;
+}
+.div-right p {
+   border: 2px solid skyblue;
+  width: 537px;
+  font-weight:400px ;
+  font-size: 1rem ;
+  color:rgb(114, 114, 114);
+   margin: 0 auto;
+  margin-top: 1.10rem;
+}
+   /* title section start here */
+.title-container{
+   border: 2px solid tomato;
+  width: 1440px;
+  display: flex;
+  margin: 0 auto;
+   margin-top: 130px;
+   gap: 54px;
+}
+.left-title{
+    border: 2px solid tomato;
+  width: 586px;
+}
+.right-title{
+  border: 2px solid tomato;
+  width: 800px;
+}
+.right-title img{
+  width: 708px;
+  width: 100%;
+}
+.right-title button {
+  width: 342px;
+  background-color: rgb(255, 144, 14);
+  color:rgb(255, 255, 255) ;
+  padding:  46px 42px;
+  font-weight: 400px;
+  font-size: 25px;
+  border-radius: 5px;
+  border: none;
+}
+.right-title button:hover{
+  background-color: rgb(212, 24, 24);
+}
+
+.left-title-header h3{
+  border: 2px solid tomato;
+  width: 468px;
+  font-weight: 400px;
+  font-size: 3rem;
+  column-rule: rgb(19, 19, 19);
+}
+.left-title-header p{
+  border: 2px solid tomato;
+  width: 586px;
+  font-weight: 400px;
+  font-size: 1rem;
+  color:rgb(114, 114, 114) ;
+  margin-top: 24px;
+}
+.left-item{
+  border: 2px solid tomato;
+  width: 586px;
+  margin-top: 20px;
+  padding: 30px 42px 30px 30px;
+  /* color: rgb(255, 255, 255); */
+  box-shadow: 9px rgba(0, 0, 0, 0.06);
+
+}
+.left-item h5{
+  width: 250px;
+  font-weight: 400px;
+  font-size: 20px;
+  color:  rgb(19, 19, 19);
+
+}
+.left-item p{
+  width: 414px;
+  font-weight: 400px;
+  font-size: 1rem;
+
+}
+/* Some-Facts-title here */
+.Some-Facts-title{
+  border: 3px solid tan;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+.Some-Facts-title h3{
+  border: 3px solid tan;
+  width: 260px;
+  font-weight: 400px;
+  font-size: 42px;
+  color:rgb(19, 19, 19) ;
+
+  
+}
+.Some-Facts-title p{
+  border: 3px solid tan;
+  width: 542px;
+  font-weight: 400px;
+  font-size: 16px;
+  color:rgb(114, 114, 114) ;
+  margin-top: 24px;
+}
+/* icon section start here  */
+
+.icon-container{
+  border: 5px solid rgb(31, 33, 172);
+  width: 1440px;
+  margin: 0 auto;
+   /* margin-left: 124px; */
+  margin-top: 100px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+.icon-item{
+  width: 240px;
+  border: 2px solid rgb(255, 144, 14);
+  margin-left: 124px;
+   margin-top: 146px;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    
+  
+}
+.icon-item h3{
+  width: 54px;
+  font-weight: 400px;
+  font-size: 45px;
+  color:rgb(66, 66, 66) ;
+  /* align-items: center;
+  text-align: center; */
+
+}
+.icon-item p{
+  width: 200px;
+  font-weight:400px ;
+  font-size:20px ;
+  color:rgb(114, 114, 114);
+ 
+}
+
+/* esponser header section start here  */
+.esponser-header{
+  border: 3px solid tan;
+  width: 542px;
+  margin: 0 auto;
+  margin-top: 180px;
+  align-items: center;
+  text-align: center;
+
+}
+.esponser-header h5{
+   border: 3px solid tan;
+  max-width: 543px;
+  font-weight: 400px;
+  font-size: 45px;
+  color:rgb(19, 19, 19) ;
+
+}
+.esponser-header p{
+   width: 543px;
+  font-weight:400px ;
+  font-size:1rem;
+  color:rgb(114, 114, 114);
+  margin-top: 24px;
+}
+/* esponser logo section start here */
+.esponser-logo{
+  border: 2px solid tomato;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 50px;
+  /* gap: 150px; */
+ 
+}
+.esponser-logo img{
+  border: 2px solid saddlebrown;
+  width: 122px;
+ margin-left: 156px;
+}
+
+/* footer section start here */
+.footer-section{
+  border: 2px solid tan;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 170px;
+}
+.footer-section p{
+   border: 2px solid rgb(172, 34, 64);
+    width: 620px;
+  font-weight:400px ;
+  font-size:20px;
+  color:rgb(66, 66, 66);
+  margin-left: 420px;
+
 }
