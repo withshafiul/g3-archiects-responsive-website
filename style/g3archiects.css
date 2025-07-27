@@ -270,8 +270,9 @@ span{
   max-width: 1440px;
   margin: 0 auto;
   margin-top: 130px;
+ 
 }
-.Some-Facts-title h3{
+.Some-Facts-title h4{
   border: 3px solid tan;
   width: 260px;
   font-weight: 400px;
@@ -280,13 +281,28 @@ span{
 
   
 }
-.Some-Facts-title p{
+.Some-Facts-title h5{
   border: 3px solid tan;
   width: 542px;
   font-weight: 400px;
   font-size: 16px;
   color:rgb(114, 114, 114) ;
   margin-top: 24px;
+}
+/* responsive layout some facets */
+@media screen and (max-width:576px) {
+  .Some-Facts-title{
+    display: flex;
+    flex-direction: column;
+  }
+  .Some-Facts-title h4{
+
+     width: 150px;
+  }
+  .Some-Facts-title h5{
+    width: 300px;
+  }
+  
 }
 /* icon section start here  */
 
@@ -296,37 +312,41 @@ span{
   margin: 0 auto;
    /* margin-left: 124px; */
   margin-top: 100px;
-  display: flex;
-  /* justify-content: center;
-  align-items: center; */
+   display: grid;
+  grid-template-columns: repeat(4,1fr);
 }
 .icon-item{
-  width: 240px;
+  width: 200px;
   border: 2px solid rgb(255, 144, 14);
-  margin-left: 124px;
+  margin-left: 50px;
    margin-top: 146px;
-    display: flex;
+   display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   padding: 45px;
     
   
 }
 .icon-item h3{
-  width: 54px;
+  /* width: 200px; */
   font-weight: 400px;
-  font-size: 45px;
+  font-size: 35px;
   color:rgb(66, 66, 66) ;
-  /* align-items: center;
-  text-align: center; */
+  align-items: center;
+  text-align: center;
+   display: grid;
+   margin-top: 5px;
 
 }
 .icon-item p{
-  width: 200px;
+  /* width: 200px; */
   font-weight:400px ;
   font-size:20px ;
   color:rgb(114, 114, 114);
- 
+  text-align: center;
+  margin-top: 10px;
+  
 }
 
 /* esponser header section start here  */
@@ -360,13 +380,19 @@ span{
   max-width: 1440px;
   margin: 0 auto;
   margin-top: 50px;
+   display: grid;
+  grid-template-rows: repeat(5,1fr);
+ 
+ 
   /* gap: 150px; */
  
 }
 .esponser-logo img{
   border: 2px solid saddlebrown;
   width: 122px;
- margin-left: 156px;
+  
+  
+ /* margin-left: 156px; */
 }
 
 /* footer section start here */
